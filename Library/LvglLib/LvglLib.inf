@@ -406,6 +406,6 @@
 
 [BuildOptions]
   MSFT:*_*_X64_CC_FLAGS = /wd4244 /wd4389 /wd4018 /wd4267 /wd4245 /wd4706 /wd4702
-  GCC:*_CLANGDWARF_*_CC_FLAGS = -Wno-unused-variable -Wno-unused-label -Wno-unused-function
+  GCC:*_CLANGDWARF_*_CC_FLAGS = -Wno-unused-variable -Wno-unused-label -Wno-unused-function -nostdinc
 
   GCC:*_CLANGDWARF_X64_CC_FLAGS = -DNO_MSABI_VA_FUNCS 
