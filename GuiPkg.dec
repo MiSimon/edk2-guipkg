@@ -1,0 +1,13 @@
+[Defines]
+  DEC_SPECIFICATION              = 0x0001001B
+  PACKAGE_NAME                   = GuiPkg
+  PACKAGE_UNI_FILE               = GuiPkg.uni
+  PACKAGE_GUID                   = 5b64b425-4848-4ded-af67-d606438a4b82
+  PACKAGE_VERSION                = 0.1
+
+[Includes]
+  Include
+  Library/LvglLib/
+  
+[UserExtensions.TianoCore."ExtraFiles"]
+  GuiPkg.uni

@@ -1,0 +1,2 @@
+#string STR_PACKAGE_ABSTRACT            #language en-US "Provides libraries to support GUI based UEFI applications."
+#string STR_PACKAGE_DESCRIPTION         #language en-US "Provides libraries to support GUI based UEFI applications."

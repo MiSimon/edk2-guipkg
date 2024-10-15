@@ -1,0 +1,25 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = LvglDemo
+  FILE_GUID                      = 5b64b425-4848-4ded-af67-d606438a4b82
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 0.1
+  ENTRY_POINT                    = UefiMain
+
+[Sources]
+  LvglDemo.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+  GuiPkg/GuiPkg.dec
+
+[LibraryClasses]
+  UefiApplicationEntryPoint
+  BaseLib
+  UefiLib
+  MemoryAllocationLib
+  UefiBootServicesTableLib
+  BaseMemoryLib
+  PrintLib
+  CompilerIntrinsicsLib
+  LvglLib
