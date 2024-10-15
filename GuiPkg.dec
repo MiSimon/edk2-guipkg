@@ -6,7 +6,6 @@
   PACKAGE_VERSION                = 0.1
 
 [Includes]
-  Include
   Library/LvglLib/
   
 [UserExtensions.TianoCore."ExtraFiles"]
