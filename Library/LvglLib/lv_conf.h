@@ -60,12 +60,12 @@
  */
 #define LV_USE_STDLIB_SPRINTF   LV_STDLIB_BUILTIN
 
-#define LV_STDINT_INCLUDE       <lv_uefi_wrapper.h>
-#define LV_STDDEF_INCLUDE       <lv_uefi_wrapper.h>
-#define LV_STDBOOL_INCLUDE      <lv_uefi_wrapper.h>
-#define LV_INTTYPES_INCLUDE     <lv_uefi_wrapper.h>
-#define LV_LIMITS_INCLUDE       <lv_uefi_wrapper.h>
-#define LV_STDARG_INCLUDE       <lv_uefi_wrapper.h>
+#define LV_STDINT_INCLUDE       <lvgl/src/drivers/uefi/lv_uefi_std_wrapper.h>
+#define LV_STDDEF_INCLUDE       <lvgl/src/drivers/uefi/lv_uefi_std_wrapper.h>
+#define LV_STDBOOL_INCLUDE      <lvgl/src/drivers/uefi/lv_uefi_std_wrapper.h>
+#define LV_INTTYPES_INCLUDE     <lvgl/src/drivers/uefi/lv_uefi_std_wrapper.h>
+#define LV_LIMITS_INCLUDE       <lvgl/src/drivers/uefi/lv_uefi_std_wrapper.h>
+#define LV_STDARG_INCLUDE       <lvgl/src/drivers/uefi/lv_uefi_std_wrapper.h>
 
 #if LV_USE_STDLIB_MALLOC == LV_STDLIB_BUILTIN
     /** Size of memory available for `lv_malloc()` in bytes (>= 2kB) */
@@ -1140,7 +1140,7 @@
 /** LVGL UEFI backend */
 #define LV_USE_UEFI 1
 #if LV_USE_UEFI
-    #define LV_USE_UEFI_INCLUDE <lv_uefi_wrapper.h>   /**< Header that hides the actual framework (EDK2, gnu-efi, ...) */
+    #define LV_USE_UEFI_INCLUDE <lvgl/src/drivers/uefi/lv_uefi_edk2.h>   /**< Header that hides the actual framework (EDK2, gnu-efi, ...) */
     #define LV_UEFI_USE_MEMORY_SERVICES 1   /**< Use the memory functions from the boot services table */
 #endif
 

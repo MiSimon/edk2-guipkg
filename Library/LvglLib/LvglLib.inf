@@ -11,6 +11,9 @@
 [Sources]
 # Config file
   lv_conf.h
+# Uefi wrapper files
+  lvgl/src/drivers/uefi/lv_uefi_edk2.h
+  lvgl/src/drivers/uefi/lv_uefi_std_wrapper.h
 # Library constructor and desctructor
   LvglLibConstructor.c
   LvglLibDestructor.c
