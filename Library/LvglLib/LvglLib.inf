@@ -203,6 +203,7 @@
   lvgl/src/stdlib/clib/lv_mem_core_clib.c
   lvgl/src/stdlib/clib/lv_sprintf_clib.c
   lvgl/src/stdlib/clib/lv_string_clib.c
+  lvgl/src/stdlib/uefi/lv_mem_core_uefi.c
   lvgl/src/stdlib/lv_mem.c
   
   lvgl/src/themes/default/lv_theme_default.c
