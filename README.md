@@ -21,7 +21,7 @@ export WORKSPACE=$PWD
 ```
 git clone https://github.com/tianocore/edk2 edk2
 cd edk2
-git checkout edk2-stable202408
+git checkout edk2-stable202411
 git submodule update --init
 make -C ./BaseTools
 cd $WORKSPACE
