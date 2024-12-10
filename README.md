@@ -17,7 +17,7 @@ cd edk2-workspace
 export WORKSPACE=$PWD
 ```
 
-- clone edk2 and initialize it
+- clone edk2 and initialize it, make sure to install all required packages for your environment ([Getting started with EDK2](https://github.com/tianocore/tianocore.github.io/wiki/Getting-Started-with-EDK-II))
 ```
 git clone https://github.com/tianocore/edk2 edk2
 cd edk2
