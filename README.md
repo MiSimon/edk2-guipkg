@@ -9,6 +9,10 @@ This project is a work in progress and must only be used for testing.
 - [EDK2](https://github.com/tianocore/edk2) is needed to build the package
 
 ## Setup (Ubuntu 24.04)
+- install all required packages for your environment ([Getting started with EDK2](https://github.com/tianocore/tianocore.github.io/wiki/Getting-Started-with-EDK-II)), including llvm and clang
+```
+sudo apt install build-essential uuid-dev iasl git  nasm  python-is-python3 llvm clang
+```
 
 - create a new folder and set the WORKSPACE environment variable
 ```
@@ -17,7 +21,7 @@ cd edk2-workspace
 export WORKSPACE=$PWD
 ```
 
-- clone edk2 and initialize it, make sure to install all required packages for your environment ([Getting started with EDK2](https://github.com/tianocore/tianocore.github.io/wiki/Getting-Started-with-EDK-II))
+- clone edk2 and initialize it
 ```
 git clone https://github.com/tianocore/edk2 edk2
 cd edk2
