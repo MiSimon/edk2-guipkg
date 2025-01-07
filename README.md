@@ -11,7 +11,7 @@ This project is a work in progress and must only be used for testing.
 ## Setup (Ubuntu 24.04)
 - install all required packages for your environment ([Getting started with EDK2](https://github.com/tianocore/tianocore.github.io/wiki/Getting-Started-with-EDK-II)), including llvm and clang
 ```
-sudo apt install build-essential uuid-dev iasl git  nasm  python-is-python3 llvm clang
+sudo apt install build-essential uuid-dev iasl git  nasm  python-is-python3 llvm clang lld
 ```
 
 - create a new folder and set the WORKSPACE environment variable
